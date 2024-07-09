@@ -69,6 +69,7 @@ header {
     height: 200px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     line-height: 1.8rem;
+    border-radius: 10px;
 }
 
 .product-container {
