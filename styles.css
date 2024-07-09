@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     }
@@ -33,4 +34,35 @@ header {
 
 .nav-bar li a {
     text-decoration: none;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F5F7;
+    height: 800px;
+    position: relative;
+}
+
+.left-container {
+    background-image: url(https://picsum.photos/800/1200);
+    background-size: cover;
+}
+
+.right-container {
+    background-image: url(https://picsum.photos/seed/picsum/800/1200);
+    background-size: cover;
+}
+
+.text-container {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background-color: white ;
+    padding: 20px 80px;
+    align-content: center;
+    width: 800px;
+    height: 200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    line-height: 1.8rem;
 }
